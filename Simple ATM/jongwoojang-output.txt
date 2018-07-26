@@ -1,0 +1,171 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset129 AppleSDGothicNeo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;}
+\margl1440\margr1440\vieww13980\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 \CocoaLigature0 Best if you just run my code on terminal and 
+\f1 get these results as you send messages to server as client.
+\f0 \
+\
+Time : Fri Sep 22 02:32:25 2017\
+Client Sent : mySavings, BAL\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, BAL\
+Server Sent : Balance Check Complete, Balance : 5000Client Rcvd : Balance Check Complete, Account Name : mySavings, Balance : 5000\
+\
+Time : Fri Sep 22 02:32:36 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 4500, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 4500 \
+\
+Time : Fri Sep 22 02:32:42 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 4000, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 4000 \
+\
+Time : Fri Sep 22 02:32:45 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 3500, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 3500\
+\
+Time : Fri Sep 22 02:32:48 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Account Timed Out, 4 accesses in 12sec. \
+Client Rcvd : Withdrawal Incomplete, Error : Account Timed Out!!\
+\
+Time : Fri Sep 22 02:33:04 2017\
+Client Sent : myChecking, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : myChecking, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 0, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : myChecking, Withdrawal Amount : 500, Balance, 0 \
+\
+Time : Fri Sep 22 02:33:07 2017\
+Client Sent : myChecking, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : myChecking, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Insufficient Funds, Balance : 0, Amount : 500\
+Client Rcvd : Withdrawal Incomplete, Error : Insufficient Funds!!\
+\
+Time : Fri Sep 22 02:33:16 2017\
+Client Sent : myRetirement, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : myRetirement, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 499500, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : myRetirement, Withdrawal Amount : 500, Balance, 499500 \
+\
+Time : Fri Sep 22 02:33:18 2017\
+Client Sent : myRetirement, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : myRetirement, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 499000, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : myRetirement, Withdrawal Amount : 500, Balance, 499000 \
+\
+Time : Fri Sep 22 02:33:19 2017\
+Client Sent : myRetirement, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : myRetirement, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 498500, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : myRetirement, Withdrawal Amount : 500, Balance, 498500 \
+\
+Time : Fri Sep 22 02:33:20 2017\
+Client Sent : myRetirement, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : myRetirement, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Account Timed Out, 4 accesses in 4sec.\
+Client Rcvd : Withdrawal Incomplete, Error : Account Timed Out!!\
+\
+Time : Fri Sep 22 02:33:33 2017\
+Client Sent : myCollege, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : myCollege, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 49500, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : myCollege, Withdrawal Amount : 500, Balance, 49500 \
+\
+Time : Fri Sep 22 02:33:41 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 3000, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 3000 \
+\
+Time : Fri Sep 22 02:33:43 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 2500, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 2500 \
+\
+Time : Fri Sep 22 02:33:44 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 2000, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 2000 \
+\
+Time : Fri Sep 22 02:33:45 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Account Timed Out, 4 accesses in 4sec. \
+Client Rcvd : Withdrawal Incomplete, Error : Account Timed Out!!\
+\
+Time : Fri Sep 22 02:34:03 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Account Timed Out, 5 accesses in 22sec.\
+Client Rcvd : Withdrawal Incomplete, Error : Account Timed Out!!\
+\
+Time : Fri Sep 22 02:34:28 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Account Timed Out, 6 accesses in 47sec. \
+Client Rcvd : Withdrawal Incomplete, Error : Account Timed Out!!\
+\
+Time : Fri Sep 22 02:34:42 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 1500, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 1500 \
+\
+Time : Fri Sep 22 02:34:45 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Complete, Balance : 1000, Amount : 500\
+Client Rcvd : Withdrawal Complete, Account Name : mySavings, Withdrawal Amount : 500, Balance, 1000\
+\
+Time : Fri Sep 22 02:34:48 2017\
+Client Sent : mySavings, WITHDRAWAL, 5000\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 5000\
+Server Sent : Withdrawal Incomplete, Error : Insufficient Funds, Balance : 1000, Amount : 5000\
+Client Rcvd : Withdrawal Incomplete, Error : Insufficient Funds!!\
+\
+Time : Fri Sep 22 02:34:55 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Account Timed Out, 4 accesses in 13sec.\
+Client Rcvd : Withdrawal Incomplete, Error : Account Timed Out!!\
+\
+Time : Fri Sep 22 02:34:56 2017\
+Client Sent : mySavings, WITHDRAWAL, 500\
+Handling Client : 127.0.0.1 \
+Server Rcvd : mySavings, WITHDRAWAL, 500\
+Server Sent : Withdrawal Incomplete, Error : Account Timed Out, 5 accesses in 14sec.\
+Client Rcvd : Withdrawal Incomplete, Error : Account Timed Out!!\
+}
